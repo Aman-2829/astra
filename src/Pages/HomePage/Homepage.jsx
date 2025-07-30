@@ -299,7 +299,7 @@ const HomePage = () => {
                     onClick={() => {
                       document.getElementById('email').value = 'admin@astrabook.com';
                       document.getElementById('password').value = 'passwofdgrd1fg23';
-                      window.location.replace('admin')
+                      window.location.replace('/astra/admin')
                     }}
                     className="w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   >
@@ -310,7 +310,7 @@ const HomePage = () => {
                     onClick={() => {
                       document.getElementById('email').value = 'author@astrabook.com';
                       document.getElementById('password').value = 'password12dgh3';
-                      window.location.replace('author')
+                      window.location.replace('/astra/author')
 
                     }}
                     className="w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
